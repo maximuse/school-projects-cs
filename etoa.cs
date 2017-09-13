@@ -37,7 +37,7 @@ namespace etoa
                 }
             }
             s = s.Replace("e", "a");
-            Console.WriteLine("A szövegben " + c + "db magánhangzó betű van.");
+            Console.WriteLine("A szövegben " + c + "db magánhangzó van.");
             Console.WriteLine(s);
             Console.ReadKey();
         }
