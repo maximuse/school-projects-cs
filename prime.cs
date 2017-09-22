@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace prime
+namespace prim
 {
     class Program
     {
@@ -15,8 +15,8 @@ namespace prime
 
             Console.Write("Number: ");
             string r = Console.ReadLine();
-            uint n;
-            uint x = 0;
+            uint n,
+                 x = 0;
 
             if (!uint.TryParse(r, out n))
             {
@@ -47,7 +47,7 @@ namespace prime
                 }
                 else
                 {
-                    Console.WriteLine("The "+ n + " is a prime number!");
+                    Console.WriteLine("The " + n + " is a prime number!");
                 }
             }
 
